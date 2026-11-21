@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TIDAL Connect over Tailscale</string>
+    <string name="module_description">Shows a TIDAL Connect receiver reachable over Tailscale (e.g. TidaLuna DesktopConnectNative on a PC) in TIDAL\'s device list, also on mobile data, where Android does no mDNS.</string>
+    <string name="hosts_title">Your PC</string>
+    <string name="hosts_help">The Tailscale IP or MagicDNS name of the PC running the receiver. Several PCs: separate with ;. If the receiver\'s Port setting is not 9000, add :port.</string>
+    <string name="hosts_hint">100.x.y.z or my-pc</string>
+    <string name="save">Save</string>
+    <string name="test">Test</string>
+    <string name="service_waiting">Waiting for the Xposed framework… Enable this module in Vector/LSPosed with TIDAL in its scope.</string>
+    <string name="service_missing">The Xposed framework is not reachable: enable this module in Vector/LSPosed, then reopen this screen.</string>
+    <string name="service_ready">Ready.</string>
+    <string name="saved">Saved. Force-stop TIDAL and open it again.</string>
+    <string name="bad_hosts">Enter a host, e.g. 100.64.0.1 or my-pc;100.64.0.2:9001</string>
+    <string name="testing">Asking the receiver…</string>
+    <string name="nothing_at">✗ No receiver at %1$s (is Tailscale on, the plugin running, the port allowed in the PC\'s firewall?)</string>
+    <string name="notes">Works with TidaLuna\'s DesktopConnectNative 1.0.6 or newer. Tested with TIDAL Android 2.220.1.</string>
+</resources>
